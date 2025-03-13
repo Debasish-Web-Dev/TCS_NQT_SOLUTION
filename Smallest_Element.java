@@ -73,7 +73,7 @@ public class Smallest_Element {
 
     // Compare to min to the all the element of the array
 
-    public static void FindMinimum(int arr[], int k, int min){
+    public static void FindMinimumElement(int arr[], int k, int min){
         for(int i=1; i<k; i++){
             if(min > arr[i]){
                 int temp = arr[i];
@@ -89,6 +89,6 @@ public class Smallest_Element {
         int arr[] = {8,1,5,7,9};
         int n = arr.length;
         int min = arr[0];
-        FindMinimum(arr, n, min);
+        FindMinimumElement(arr, n, min);
     }
 }
