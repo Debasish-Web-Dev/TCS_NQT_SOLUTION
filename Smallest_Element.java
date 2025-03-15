@@ -46,7 +46,7 @@ public class Smallest_Element {
     // main function of the code 
 
     public static void main(String[] args) {
-        int arr[] = {8,10,5,7,9};
+        int arr[] = {8,10,25,7,9};
         int n = arr.length;
         SortedArray(arr, n);
     }
