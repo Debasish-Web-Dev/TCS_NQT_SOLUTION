@@ -53,6 +53,12 @@ public class Smallest_Element {
 }
 
 
+// Time Complexity: O(N*N)
+
+// Space Complexity: O(1)
+
+
+
 
 // Solution2: Using a min variable
 
@@ -92,3 +98,8 @@ public class Smallest_Element {
         FindMinimumElement(arr, n, min);
     }
 }
+
+
+// Time Complexity: O(N)
+
+// Space Complexity: O(1)
